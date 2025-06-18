@@ -1,0 +1,48 @@
+.forget-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.forget-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.forget-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.forget-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.forget-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forget-button:hover {
+  background-color: #0056b3;
+}
+
+.forget-message {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #28a745;
+}

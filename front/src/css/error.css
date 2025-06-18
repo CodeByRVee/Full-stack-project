@@ -1,0 +1,37 @@
+/* Basic styling for the error page */
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    color: #343a40;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .error-container h1 {
+    font-size: 4rem;
+    color: #e74c3c;
+    margin: 0;
+  }
+  
+  .error-container h2 {
+    font-size: 2rem;
+    color: #2d3e50;
+    margin: 10px 0;
+  }
+  
+  .error-container p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin: 10px 0;
+  }
+  
+  .error-container svg {
+    font-size: 3rem;
+    color: #e74c3c;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": " ravi kumar",
+  "license": "ISC",
+  "description": "login page ",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.4.0",
+    "google-auth-library": "^9.15.1",
+    "i": "^0.3.7",
+    "jo": "^0.0.8",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
